@@ -111,7 +111,7 @@ body {
 .dropdown {
     position: absolute;
     top: 53px;
-    left: -18vw;
+    left: -16vw;
     width: 20vw;
     min-width: 200px;
     background-color: var(--orca-blue);
