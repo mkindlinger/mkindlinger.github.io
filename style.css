@@ -239,7 +239,7 @@ input {
     display: block;
     width: 20vw;
     max-height: 0;
-    overflow: hidden;
+    overflow: scroll;
     margin-bottom: 1vh;
     background-color: white;
     transition: all 0.3s;
