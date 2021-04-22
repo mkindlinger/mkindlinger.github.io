@@ -11,26 +11,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-body::-webkit-scrollbar-track
-{
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  border-radius: 10px;
-  background-color: #F5F5F5;
-}
-
-body::-webkit-scrollbar
-{
-  width: 12px;
-  background-color: #F5F5F5;
-}
-
-body::-webkit-scrollbar-thumb
-{
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #D62929;
-}
-
 :root{
     --orca-blue: #002B44;
     --our-light-blue: #1CA1ED;
@@ -277,7 +257,7 @@ input {
 }
 
 #menu2Toggle:checked ~ .backgrounds {
-    max-height: calc(var(--container-height) - 41px - 6rem - 30vh);
+    max-height: calc(var(--container-height) - 41px - 6rem - 24vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
@@ -286,7 +266,7 @@ input {
 }
 
 #menu3Toggle:checked ~ .figures {
-    max-height: 34vh;
+    max-height: calc(var(--container-height) - 41px - 6rem - 24vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
@@ -295,7 +275,7 @@ input {
 }
 
 #menu4Toggle:checked ~ .objects {
-    max-height: 34vh;
+    max-height: calc(var(--container-height) - 41px - 6rem - 24vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
@@ -304,7 +284,7 @@ input {
 }
 
 #menu5Toggle:checked ~ .interaction {
-    max-height: 34vh;
+    max-height: calc(var(--container-height) - 41px - 6rem - 24vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
@@ -313,7 +293,7 @@ input {
 }
 
 #menu6Toggle:checked ~ .prefab {
-    max-height: 34vh;
+    max-height: calc(var(--container-height) - 41px - 6rem - 24vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
