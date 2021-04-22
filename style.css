@@ -239,7 +239,7 @@ input {
     display: block;
     width: 20vw;
     max-height: 0;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 1vh;
     background-color: white;
     transition: all 0.3s;
@@ -277,7 +277,7 @@ input {
 }
 
 #menu2Toggle:checked ~ .backgrounds {
-    max-height: 34vh;
+    max-height: calc(var(--container-height) - 41px - 6rem - 15vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
