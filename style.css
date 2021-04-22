@@ -277,7 +277,7 @@ input {
 }
 
 #menu2Toggle:checked ~ .backgrounds {
-    max-height: calc(var(--container-height) - 41px - 6rem - 15vh);
+    max-height: calc(var(--container-height) - 41px - 6rem - 30vh);
     padding: 1vh 0vw 1vh 2vw;
 }
 
